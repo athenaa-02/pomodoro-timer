@@ -3,4 +3,8 @@ button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    opacity: 0.4;
+    width: 120px;
+    height: 48px;
+    border-radius: 26.5px;
 }

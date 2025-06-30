@@ -2,6 +2,14 @@ h1{
     color: #D7E0FF;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
 div.heading{
     width: 373px;
     background-color: #161932;
