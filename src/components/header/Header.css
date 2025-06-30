@@ -1,0 +1,14 @@
+h1{
+    color: #D7E0FF;
+}
+
+div.heading{
+    width: 373px;
+    background-color: #161932;
+    height: 63px;
+    border-radius: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
