@@ -1,4 +1,75 @@
-.Square {
-    width: 410px;
-    height: 410px;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    font-family: "Kumbh Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+
+.outerCircle{
+   width: 410px;
+   height: 410px;
+   background: linear-gradient(
+  320deg, 
+  rgba(39, 44, 90, 1) 0%, 
+  rgba(22, 25, 50, 1) 75%);
+    border-radius: 50%;
+    clip-path: circle(50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCircle{
+    width: 366px;
+    height: 366px;
+    border-radius: 50%;
+    background-color: rgba(22, 25, 50, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(215, 224, 255, 1);
+    position: relative;
+}
+
+section.time{
+    display: flex;
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 4;
+}
+
+.pause{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 15px;
+    position: absolute;
+    bottom: 70px;
+    z-index: 6; 
+}
+
+.positionCircle{
+    position: absolute;
+    width: 316px;
+    height: 316px;
+    border-radius: 50%;
+    background-color: rgba(22, 25, 50, 1);
+    z-index: 3;
+}
+
+.redLine{
+    background-color: rgba(248, 112, 112, 1);
+    width: 339px;
+    height: 339px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
 }

@@ -5,7 +5,7 @@ function ChildComponent(props) {
 
   return (
     <>
-     <button>{props.text}</button>
+     <button onClick={(e) =>{e.target.style.backgroundColor='rgba(248, 112, 112, 1)'}}>{props.text}</button>
     </>
   )
 }
