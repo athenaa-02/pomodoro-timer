@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-    <Routes>
     <Header></Header>
+    <Routes>
    <Route path='/' element={ <Master></Master>}></Route>
    <Route path='/product' element={ <Product></Product>}></Route>
     
