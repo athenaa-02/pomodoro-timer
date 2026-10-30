@@ -4,15 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pomodoro</title>
-    { "@context": "https://schema.org", "@type": "HowTo", "name": "How to Use
-    the 25-Minute Pomodoro Timer", "description": "A simple step-by-step guide
-    to managing your productivity using this React countdown timer.",
-    "totalTime": "PT25M", "step": [ { "@type": "HowToStep", "name": "Start the
-    Timer", "text": "Click on the circular interface to initiate the 25-minute
-    countdown clock.", "url": "https://yourwebsite.com" }, { "@type":
-    "HowToStep", "name": "Pause or Resume Focus Session", "text": "Click the
-    circular layout again at any time during the countdown to toggle between
-    pausing and resuming the session.", "url": "https://yourwebsite.com" } ] }
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Use the 25-Minute Pomodoro Timer",
+      "description": "A web-based countdown clock designed to help you execute 25-minute productivity sessions.",
+      "totalTime": "PT25M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Start the Focus Session",
+          "text": "Click or tap anywhere on the large outer circle to start the 25-minute countdown clock."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pause or Resume",
+          "text": "Click the circular interface again at any moment to pause your session or resume the countdown."
+        }
+      ]
+    }
+    </script>  
   </head>
   <body>
     <div id="root"></div>
