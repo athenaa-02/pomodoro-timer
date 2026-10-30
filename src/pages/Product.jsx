@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductSchema from './ProductSchema'
+import ProductSchema from '../components/ProductSchema'
 
 
 const product = {
